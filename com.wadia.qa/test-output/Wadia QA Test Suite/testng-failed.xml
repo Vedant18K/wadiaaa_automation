@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Wadia QA Test Suite]" guice-stage="DEVELOPMENT">
+  <test thread-count="5" name=" Flexi Loan Page Test Cases(failed)">
+    <classes>
+      <class name="com.wadia.qa.testcases.FlexiLoanTestCases">
+        <methods>
+          <include name="TestFlexiLoan"/>
+          <include name="setup"/>
+        </methods>
+      </class> <!-- com.wadia.qa.testcases.FlexiLoanTestCases -->
+    </classes>
+  </test> <!--  Flexi Loan Page Test Cases(failed) -->
+  <test thread-count="5" name=" Document Page Test Cases(failed)">
+    <classes>
+      <class name="com.wadia.qa.testcases.UploadDocumentTestCases">
+        <methods>
+          <include name="verifyDocumentUpload"/>
+          <include name="setup"/>
+        </methods>
+      </class> <!-- com.wadia.qa.testcases.UploadDocumentTestCases -->
+    </classes>
+  </test> <!--  Document Page Test Cases(failed) -->
+</suite> <!-- Failed suite [Wadia QA Test Suite] -->
