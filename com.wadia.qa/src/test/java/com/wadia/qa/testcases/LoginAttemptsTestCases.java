@@ -42,9 +42,9 @@ public class LoginAttemptsTestCases {
         login.testWadiaPasswordField();
         
         // Loop to click the login button 5 times
-        for (int i = 0; i < 10; i++) {
+        for (int i = 0; i < 201; i++) {
             login.testWadiaLoginButton();
-            System.out.println("Click");
+            System.out.println(i);
             Thread.sleep(1000); // Add delay if needed
         }
     }
